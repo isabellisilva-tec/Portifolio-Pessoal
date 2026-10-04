@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Currículo de Isabelli da Silva Gonçalves, estudante de Sistemas de Informação.">
+    <meta name="theme-color" content="#faf6f7">
+    <title>Isabelli da Silva Gonçalves | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <span id="progresso-leitura" aria-hidden="true"></span>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+
+    <header class="cabecalho">
+      <a class="marca" href="#inicio" aria-label="IG, início">
+        <span>IG</span>
+        <b>Isabelli Gonçalves</b>
+      </a>
+      <nav class="menu-desktop" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="#habilidades">Competências</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#projetos">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <details class="menu-mobile">
+        <summary aria-label="Abrir ou fechar menu"><i></i><i></i><i></i></summary>
+        <nav aria-label="Navegação móvel">
+          <a href="#sobre">Sobre</a>
+          <a href="#formacao">Formação</a>
+          <a href="#habilidades">Competências</a>
+          <a href="#cursos">Cursos</a>
+          <a href="#projetos">Portfólio</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </details>
+    </header>
+
+    <main id="conteudo" tabindex="-1">
+      <section id="inicio" class="hero" aria-label="Apresentação">
+        <article>
+          <h1>Isabelli da Silva <em>Gonçalves</em></h1>
+          <p class="resumo">Estudante de Sistemas de Informação, explorando ideias e construindo meus conhecimentos em tecnologia.</p>
+          <p class="acoes">
+            <a class="botao" href="#projetos">Conheça meus projetos ↓</a>
+            <a class="link" href="#contato">Vamos conversar ↗</a>
+          </p>
+        </article>
+        <figure class="foto">
+          <img src="imagens/imagem.jpg" alt="Foto de Isabelli da Silva Gonçalves" width="1086" height="1448">
+        </figure>
+      </section>
+
+      <section id="sobre" class="secao" aria-labelledby="titulo-sobre">
+        <header class="titulo"><span>01</span><h2 id="titulo-sobre">Sobre mim</h2></header>
+        <article class="duas-colunas">
+          <h3>Aprender e crescer na <em>área de tecnologia.</em></h3>
+          <article class="texto">
+            <p>Tenho 19 anos e sou graduanda do curso de Bacharelado em Sistemas de Informação.</p>
+            <p>Tenho interesse pela área de tecnologia e estou sempre buscando novos aprendizados. Sou responsável, proativa e estou disposta a aprender e contribuir em novas oportunidades profissionais.</p>
+          </article>
+        </article>
+      </section>
+
+      <section id="formacao" class="secao faixa-escura" aria-labelledby="titulo-formacao">
+        <header class="titulo"><span>02</span><h2 id="titulo-formacao">Formação</h2></header>
+        <header class="introducao">
+          <h3>Minha trajetória<br><em>acadêmica</em></h3>
+          <p>Minha trajetória de estudos e qualificações.</p>
+        </header>
+        <ol class="formacoes">
+          <li>
+            <span>EM ANDAMENTO</span>
+            <article class="formacao-detalhe">
+              <h4>Bacharelado em Sistemas de Informação</h4>
+              <p>Graduação em andamento.</p>
+            </article>
+          </li>
+          <li>
+            <span class="status-concluido">CONCLUÍDO</span>
+            <article class="formacao-detalhe">
+              <h4>Técnico em Informática Integrado ao Ensino Médio</h4>
+              <p class="formacao-instituicao">Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais — Campus Machado</p>
+              <p class="periodo-formacao"><time datetime="2022">2022</time>–<time datetime="2024">2024</time></p>
+            </article>
+          </li>
+        </ol>
+      </section>
+
+      <section id="habilidades" class="secao" aria-labelledby="titulo-habilidades">
+        <header class="titulo"><span>03</span><h2 id="titulo-habilidades">Competências</h2></header>
+        <header class="introducao">
+          <h3>Conhecimentos e<br><em>pontos fortes</em></h3>
+          <p>Competências que desenvolvo com meus estudos e interesses.</p>
+        </header>
+        <ul class="habilidades">
+          <li><span>01</span><h4>Informática</h4><p>Conhecimentos da área desenvolvidos com estudo e prática.</p></li>
+          <li><span>02</span><h4>Tecnologia</h4><p>Interesse pela área e disposição para ampliar conhecimentos.</p></li>
+          <li><span>03</span><h4>Aprendizado contínuo</h4><p>Busca por novos aprendizados e desenvolvimento profissional.</p></li>
+          <li><span>04</span><h4>Responsabilidade e proatividade</h4><p>Comprometimento e vontade de contribuir em novas oportunidades.</p></li>
+        </ul>
+      </section>
+
+      <section id="cursos" class="secao fundo" aria-labelledby="titulo-cursos">
+        <header class="titulo"><span>04</span><h2 id="titulo-cursos">Cursos</h2></header>
+        <header class="introducao">
+          <h3>Cursos e<br><em>qualificações</em></h3>
+          <p>Cursos complementares que fazem parte da minha trajetória.</p>
+        </header>
+        <search class="busca recurso-js">
+          <label for="busca-curso">Buscar um curso</label>
+          <input id="busca-curso" type="search" placeholder="Digite o nome de um curso…" aria-controls="lista-cursos">
+          <p id="resultado-busca" role="status"></p>
+        </search>
+        <ul id="lista-cursos" class="cursos">
+          <li><article><span>01</span><h4>Automaquiagem</h4><p>Curso de automaquiagem.</p></article></li>
+          <li><article><span>02</span><h4>Maquiagem Profissional</h4><p>Curso de maquiagem profissional.</p></article></li>
+          <li><article><span>03</span><h4>Manutenção de Computadores</h4><p>Curso voltado à manutenção de computadores.</p></article></li>
+        </ul>
+      </section>
+
+      <section id="projetos" class="secao faixa-escura" aria-labelledby="titulo-projetos">
+        <header class="titulo"><span>05</span><h2 id="titulo-projetos">Portfólio</h2></header>
+        <header class="introducao">
+          <h3>Projetos que unem<br><em>ideia e prática</em></h3>
+          <p>Adicione aqui trabalhos acadêmicos, projetos pessoais e experiências que queira apresentar.</p>
+        </header>
+        <search class="busca busca-projetos recurso-js">
+          <label for="busca-projeto">Buscar no portfólio</label>
+          <input id="busca-projeto" type="search" placeholder="Digite um tema, como tecnologia…" aria-controls="lista-projetos">
+          <p id="resultado-projetos" role="status"></p>
+        </search>
+        <ul class="projetos" id="lista-projetos">
+          <li><article class="projeto-card"><span class="item-numero">01</span><figure class="projeto-capa"><svg class="icone-download" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v4h14v-4"></path></svg><figcaption>Em andamento</figcaption></figure><h4>Projeto 01</h4></article></li>
+          <li><article class="projeto-card"><span class="item-numero">02</span><figure class="projeto-capa"><svg class="icone-download" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v4h14v-4"></path></svg><figcaption>Em andamento</figcaption></figure><h4>Projeto 02</h4></article></li>
+          <li><article class="projeto-card"><span class="item-numero">03</span><figure class="projeto-capa"><svg class="icone-download" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v4h14v-4"></path></svg><figcaption>Em andamento</figcaption></figure><h4>Projeto 03</h4></article></li>
+          <li><article class="projeto-card"><span class="item-numero">04</span><figure class="projeto-capa"><svg class="icone-download" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v4h14v-4"></path></svg><figcaption>Em andamento</figcaption></figure><h4>Projeto 04</h4></article></li>
+        </ul>
+      </section>
+
+      <section id="objetivo" class="secao" aria-labelledby="titulo-objetivo">
+        <header class="titulo"><span>06</span><h2 id="titulo-objetivo">Objetivo profissional</h2></header>
+        <article class="duas-colunas">
+          <h3>Pronta para novos <em>desafios e aprendizados.</em></h3>
+          <p class="texto">Procuro oportunidades que possam agregar à minha carreira e proporcionar novos conhecimentos e experiências. Estou disposta a aprender e contribuir de forma responsável e dedicada.</p>
+        </article>
+      </section>
+
+      <section id="contato" class="secao contato-claro" aria-labelledby="titulo-contato">
+        <header class="titulo"><span>07</span><h2 id="titulo-contato">Contato</h2></header>
+        <header class="introducao">
+          <h3>Vamos conversar<br><em>sobre oportunidades?</em></h3>
+          <p>Estou aberta a novas experiências e oportunidades de aprendizado.</p>
+        </header>
+        <section class="contato-grade" aria-label="Formulário e canais de contato">
+          <form id="form-contato" action="mailto:isabelli102silva@gmail.com" method="post" enctype="text/plain" aria-describedby="aviso-formulario">
+            <header class="titulo-formulario"><h3>Prepare uma mensagem</h3></header>
+            <fieldset aria-label="Prepare uma mensagem">
+              <p id="aviso-formulario">O formulário valida os dados e prepara um rascunho no seu aplicativo de e-mail. Ele não envia nem armazena mensagens.</p>
+              <section class="campos" aria-label="Campos da mensagem">
+                <p><label for="nome">Nome</label><input id="nome" name="nome" type="text" maxlength="100" autocomplete="name" placeholder="Como você se chama?" aria-describedby="erro-nome" required><small id="erro-nome" hidden></small></p>
+                <p><label for="email">E-mail</label><input id="email" name="email" type="email" maxlength="254" autocomplete="email" placeholder="voce@exemplo.com" aria-describedby="erro-email" required><small id="erro-email" hidden></small></p>
+                <p><label for="assunto">Assunto</label><select id="assunto" name="assunto" aria-describedby="erro-assunto" required><option value="" selected disabled>Selecione uma opção</option><option>Oportunidade profissional</option><option>Informações sobre o portfólio</option><option>Outro assunto</option></select><small id="erro-assunto" hidden></small></p>
+                <p class="campo-mensagem"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" rows="5" maxlength="1000" placeholder="Escreva sua mensagem…" aria-describedby="erro-mensagem contador-mensagem" required></textarea><small id="erro-mensagem" hidden></small><small id="contador-mensagem" class="contador recurso-js"></small></p>
+              </section>
+              <button class="botao" type="submit" disabled>Preparar e-mail ↗</button>
+              <noscript>Ative o JavaScript ou escreva para <a href="mailto:isabelli102silva@gmail.com">isabelli102silva@gmail.com</a>.</noscript>
+              <a id="abrir-rascunho" class="botao" hidden>Abrir rascunho no aplicativo de e-mail</a>
+              <p id="feedback-formulario" role="status" aria-live="polite" hidden></p>
+            </fieldset>
+          </form>
+          <aside class="canais">
+            <h4>Canais disponíveis</h4>
+            <p>Se preferir, entre em contato diretamente por um destes canais.</p>
+            <address class="lista-canais">
+              <a class="canal-link" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=isabelli102silva%40gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Enviar e-mail pelo Gmail"><span class="canal-icone" aria-hidden="true">✉</span><span>isabelli102silva@gmail.com</span><span class="canal-seta" aria-hidden="true">↗</span></a>
+              <a class="canal-link" href="tel:+5535988997129" aria-label="Ligar para (35) 98899-7129"><span class="canal-icone" aria-hidden="true">☎</span><span>(35) 98899-7129</span><span class="canal-seta" aria-hidden="true">↗</span></a>
+              <a class="canal-link" href="https://www.linkedin.com/in/isabelli-da-silva-gon%C3%A7alves-05b815237" target="_blank" rel="noopener noreferrer" aria-label="Abrir perfil no LinkedIn"><span class="canal-icone canal-linkedin" aria-hidden="true">in</span><span>LinkedIn</span><span class="canal-seta" aria-hidden="true">↗</span></a>
+            </address>
+            <button class="botao secundario recurso-js" id="copiar-email" type="button">Copiar e-mail</button>
+            <p id="feedback-copia" role="status"></p>
+          </aside>
+        </section>
+      </section>
+    </main>
+
+    <a href="#inicio" class="voltar-topo" aria-label="Voltar ao início">↑</a>
+    <footer>
+      <nav aria-label="Navegação complementar">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Experiência</a>
+        <a href="#formacao">Formação</a>
+      </nav>
+      <p>© <span data-ano>2026</span> · Isabelli da Silva Gonçalves</p>
+    </footer>
+    <dialog id="detalhes-curso" aria-labelledby="titulo-modal">
+      <form method="dialog"><button class="botao secundario" type="submit" autofocus>Fechar ×</button></form>
+      <h2 id="titulo-modal">Detalhes do curso</h2>
+      <p id="texto-modal"></p>
+    </dialog>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
